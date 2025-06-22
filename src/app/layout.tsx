@@ -7,7 +7,7 @@ const lexend = Lexend({
   subsets: ["latin"],
 });
 
-const geistMono = Lexend({
+const lexendMono = Lexend({
   variable: "--font-lexend",
   subsets: ["latin"],
 });
@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${lexend.variable} ${lexend.variable} antialiased`}
+        className={`${lexend.variable} ${lexendMono.variable} antialiased`}
       >
         {children}
       </body>

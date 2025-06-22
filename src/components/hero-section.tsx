@@ -57,7 +57,7 @@ export default function HeroSection() {
                       <li key={index}>
                         <Link
                           href={item.href}
-                          className="text-muted-foreground transition-transform hover:scale-125 hover:shadow-foreground block duration-150"
+                          className="text-muted-foreground transition-transform hover:underline block duration-150"
                         >
                           <span>{item.name}</span>
                         </Link>
@@ -65,18 +65,13 @@ export default function HeroSection() {
                     ))}
                   </ul>
                 </div>
-
                 <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit lg:border-l lg:pl-6">
-                  <Button asChild variant="outline" size="sm">
-                    <Link href="#">
-                      <span>Login</span>
-                    </Link>
-                  </Button>
                   <Button asChild size="sm">
                     <Link href="#">
                       <span>Login</span>
                     </Link>
                   </Button>
+                  {/* gonna add theme switcher here */}
                 </div>
               </div>
             </div>
@@ -93,21 +88,19 @@ export default function HeroSection() {
                   className="rounded-(--radius) mx-auto flex w-fit items-center gap-2 border p-1 pr-3"
                 >
                   <span className="bg-muted rounded-[calc(var(--radius)-0.25rem)] px-2 py-1 text-xs">
-                    New
+                    Baru!
                   </span>
-                  <span className="text-sm">Introduction Tailark Html</span>
+                  <span className="text-sm">Daftar soal terbaru</span>
                   <span className="bg-(--color-border) block h-4 w-px"></span>
 
                   <ArrowRight className="size-4" />
                 </Link>
 
                 <h1 className="mt-8 text-4xl font-semibold md:text-5xl xl:text-5xl xl:[line-height:1.125]">
-                  Tame the Wild West <br /> of Frontend Development
+                  Kumpulan soal-soal <br /> latihan UTBK 
                 </h1>
                 <p className="mx-auto mt-8 hidden max-w-2xl text-wrap text-lg sm:block">
-                  Tailwindcss highly customizable components for building modern
-                  websites and applications that look and feel the way you mean
-                  it.
+                    Platform yang dibuat dengan tujuan agar teman-teman semua dapat berlatih dan beradaptasi dengan soal-soal UTBK yang diluar nalar 
                 </p>
                 <p className="mx-auto mt-6 max-w-2xl text-wrap sm:hidden">
                   Highly customizable components for building modern websites
@@ -118,7 +111,7 @@ export default function HeroSection() {
                   <Button size="lg" asChild>
                     <Link href="#">
                       <Rocket className="relative size-4" />
-                      <span className="text-nowrap">Start Building</span>
+                      <span className="text-nowrap">Mulai Belajar </span>
                     </Link>
                   </Button>
                 </div>

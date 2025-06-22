@@ -78,7 +78,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    /* --radius: 1rem;
+    --radius: 1rem;
     --background: oklch(14% 0.004 49.25);
     --foreground: oklch(97% 0.001 106.424);
     --card: oklch(21% 0.006 56.043);
@@ -110,8 +110,8 @@
     --sidebar-accent: oklch(74% 0.238 322.16);
     --sidebar-accent-foreground: oklch(29% 0.136 325.661);
     --sidebar-border: oklch(26% 0.007 34.298);
-    --sidebar-ring: hsl(199, 100%, 47%); */
-      --radius: 1rem;
+    --sidebar-ring: hsl(199, 100%, 47%);
+      /* --radius: 1rem;
   --background: oklch(92% 0.004 286.32);
   --foreground: oklch(26% 0.007 34.298);
   --card: oklch(87% 0.006 286.286);
@@ -143,7 +143,7 @@
   --sidebar-accent: oklch(87% 0.169 91.605);
   --sidebar-accent-foreground: oklch(27% 0.077 45.635);
   --sidebar-border: oklch(70% 0.015 286.067);
-  --sidebar-ring: oklch(70% 0.165 254.624);
+  --sidebar-ring: oklch(70% 0.165 254.624); */
   }
 }
 

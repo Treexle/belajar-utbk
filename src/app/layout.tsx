@@ -1,9 +1,21 @@
 import type { Metadata } from "next";
-import { Lexend } from "next/font/google";
+import { Lexend, Lato, Grandstander } from "next/font/google";
 import "./globals.css";
 
 const lexend = Lexend({
   variable: "--font-lexend",
+  subsets: ["latin"],
+});
+
+const grandstander = Grandstander({
+  variable: "--font-grandstander",
+  weight: '700',
+  subsets: ["latin"],
+});
+
+const lato = Lato({
+  variable: "--font-lato",
+  weight: "400",
   subsets: ["latin"],
 });
 
@@ -25,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${lexend.variable} ${lexendMono.variable} antialiased`}
+        className={`${lexend.variable} ${lexendMono.variable} ${lato.variable} ${grandstander.variable} antialiased`}
       >
         {children}
       </body>

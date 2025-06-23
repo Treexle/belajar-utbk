@@ -65,7 +65,7 @@ export default function HeroSection() {
                     ))}
                   </ul>
                 </div>
-                <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit lg:border-l lg:pl-6">
+                <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit lg:border-l lg:border-gray-600/80 lg:pl-6">
                   <Button asChild size="sm">
                     <Link href="#">
                       <span>Login</span>
@@ -85,7 +85,7 @@ export default function HeroSection() {
               <div className="text-center sm:mx-auto sm:w-10/12 lg:mr-auto lg:mt-0 lg:w-4/5">
                 <Link
                   href="/"
-                  className="rounded-(--radius) mx-auto flex w-fit items-center gap-2 border p-1 pr-3"
+                  className="rounded-(--radius) mx-auto flex w-fit items-center gap-2 border border-gray-600/80 p-1 pr-3"
                 >
                   <span className="bg-muted rounded-[calc(var(--radius)-0.25rem)] px-2 py-1 text-xs">
                     Baru!

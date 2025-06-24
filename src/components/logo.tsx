@@ -9,7 +9,7 @@ export const Logo = ({
 }) => {
   return (
     <svg
-      width="200"
+      width="180"
       height="40"
       viewBox="0 0 200 40"
       xmlns="http://www.w3.org/2000/svg"
@@ -35,8 +35,8 @@ export const Logo = ({
         </linearGradient>
       </defs>
       <text
-        x="0"
-        y="30"
+        x="50"
+        y="30"//ini yang bikin teks nya ditengah
         className="mx-auto"
         fontSize="30"
         fontWeight="bold"
@@ -63,7 +63,7 @@ export const LogoIcon = ({
       viewBox="0 0 18 18"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className={cn("size-5", className)}
+      className={cn("block mx-auto", className)}
     >
       <path
         d="M3 0H5V18H3V0ZM13 0H15V18H13V0ZM18 3V5H0V3H18ZM0 15V13H18V15H0Z"

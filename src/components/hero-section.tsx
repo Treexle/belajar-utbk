@@ -13,10 +13,10 @@ import { ArrowRight, Menu, Rocket, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const menuItems = [
-  { name: "Features", href: "#" },
-  { name: "Solution", href: "#" },
-  { name: "Pricing", href: "#" },
-  { name: "About", href: "#" },
+  { name: "Tentang", href: "#" },
+  { name: "Subtes", href: "#" },
+  { name: "Latihan", href: "#" },
+  { name: "Simulasi", href: "#" },
 ];
 
 export default function HeroSection() {

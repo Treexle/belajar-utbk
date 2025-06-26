@@ -14,7 +14,7 @@ import { Button } from "@/components/ui/button";
 
 const menuItems = [
   { name: "Tentang", href: "#" },
-  { name: "Subtes", href: "#" },
+  { name: "Belajar", href: "#" },
   { name: "Latihan", href: "#" },
   { name: "Simulasi", href: "#" },
 ];
@@ -27,7 +27,7 @@ export default function HeroSection() {
       <header>
         <nav
           data-state={menuState && "active"}
-          className="fixed z-20 w-full border-b border-dashed bg-white backdrop-blur md:relative dark:bg-zinc-950/50 lg:dark:bg-transparent"
+          className=" z-20 w-full border-b border-emerald-50/30 bg-background backdrop-blur md:relative dark:bg-zinc-950/50 lg:dark:bg-transparent"
         >
           <div className="m-auto max-w-5xl px-6">
             <div className="flex flex-wrap items-center justify-between gap-6 py-3 lg:gap-0 lg:py-4">
@@ -90,17 +90,19 @@ export default function HeroSection() {
                   <span className="bg-muted rounded-[calc(var(--radius)-0.25rem)] px-2 py-1 text-xs">
                     Baru!
                   </span>
-                  <span className="text-sm">Daftar soal terbaru</span>
+                  <span className="text-sm">Update Daftar soal </span>
                   <span className="bg-(--color-border) block h-4 w-px"></span>
 
                   <ArrowRight className="size-4" />
                 </Link>
 
                 <h1 className="mt-8 text-4xl font-semibold md:text-5xl xl:text-5xl xl:[line-height:1.125]">
-                  Kumpulan soal-soal <br /> latihan UTBK 
+                  Kumpulan soal-soal <br /> latihan UTBK
                 </h1>
                 <p className="mx-auto mt-8 hidden max-w-2xl text-wrap text-lg sm:block">
-                    Platform yang dibuat dengan tujuan agar teman-teman semua dapat berlatih dan beradaptasi dengan soal-soal UTBK yang diluar nalar 
+                  Platform yang dibuat dengan tujuan agar teman-teman semua
+                  dapat berlatih dan beradaptasi dengan soal-soal UTBK yang
+                  diluar nalar
                 </p>
                 <p className="mx-auto mt-6 max-w-2xl text-wrap sm:hidden">
                   Highly customizable components for building modern websites

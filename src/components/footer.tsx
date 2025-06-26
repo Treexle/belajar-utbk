@@ -8,10 +8,6 @@ const links = [
     href: "#",
   },
   {
-    title: "Subtes",
-    href: "#",
-  },
-  {
     title: "Latihan",
     href: "#",
   },
@@ -53,7 +49,9 @@ export default function FooterSection() {
               aria-label="Github"
               className="text-muted-foreground hover:text-primary block"
             >
-              <FaGithub className="size-6" />
+              <div className="text-2xl">
+                <FaGithub />
+              </div>
             </Link>
             <Link
               href="https://www.linkedin.com/in/muhamad-fathir-fardan/"
@@ -62,7 +60,9 @@ export default function FooterSection() {
               aria-label="LinkedIn"
               className="text-muted-foreground hover:text-primary block"
             >
-              <FaLinkedin className="size-6" />
+              <div className="text-2xl">
+                <FaLinkedin/>
+              </div>
             </Link>
             <Link
               href="https://instagram.com/fathir.fdn"
@@ -71,7 +71,9 @@ export default function FooterSection() {
               aria-label="Instagram"
               className="text-muted-foreground hover:text-primary block"
             >
-              <FaInstagram className="size-6 " />
+              <div className=" text-2xl ">
+                <FaInstagram/>
+              </div>
             </Link>
           </div>
           <span className="text-muted-foreground block text-center text-sm">

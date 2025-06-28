@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Navbar from "@/components/navbar";
+import FooterSection from "@/components/footer";
 import { Lexend, Lato, Grandstander } from "next/font/google";
 import "./globals.css";
 
@@ -9,7 +11,7 @@ const lexend = Lexend({
 
 const grandstander = Grandstander({
   variable: "--font-grandstander",
-  weight: '700',
+  weight: "700",
   subsets: ["latin"],
 });
 
@@ -25,8 +27,8 @@ const lexendMono = Lexend({
 });
 
 export const metadata: Metadata = {
-  title: "Tempat Belajar UTBK",
-  description: "Kumpulan soal-soal latihan untuk utbk",
+  title: "Skorin : Belajar UTBK",
+  description: "Kumpulan soal-soal latihan untuk UTBK",
 };
 
 export default function RootLayout({
@@ -39,7 +41,9 @@ export default function RootLayout({
       <body
         className={`${lexend.variable} ${lexendMono.variable} ${lato.variable} ${grandstander.variable} antialiased`}
       >
+        <Navbar />
         {children}
+        <FooterSection />
       </body>
     </html>
   );

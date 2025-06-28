@@ -1,4 +1,4 @@
-import { Logo } from "@/components/logo";
+import { Logo } from "@/components/ui/logo";
 import Link from "next/link";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
@@ -61,7 +61,7 @@ export default function FooterSection() {
               className="text-muted-foreground hover:text-primary block"
             >
               <div className="text-2xl">
-                <FaLinkedin/>
+                <FaLinkedin />
               </div>
             </Link>
             <Link
@@ -72,7 +72,7 @@ export default function FooterSection() {
               className="text-muted-foreground hover:text-primary block"
             >
               <div className=" text-2xl ">
-                <FaInstagram/>
+                <FaInstagram />
               </div>
             </Link>
           </div>
